@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    color: #69004a;
+    background: linear-gradient(#e6f4ff, #e445a2);
+    font-family: "Libre Caslon Text", Georgia, serif;
+}
+
+h1 {
+    color: #69004a;
+    font-size: 2.5rem;
+}
+
+.tagline {
+    color: #df5034;
+}
+.globe-card {
+    background: #f899e0;
+    border: 2px solid #69004a;
+}
+
+#message {
+    font-style:italic
+}
