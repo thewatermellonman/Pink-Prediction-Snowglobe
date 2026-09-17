@@ -28,9 +28,54 @@ main {
 .globe-card {
     background: #f899e0;
     border: 2px solid #69004a;
-    padding: 0 1rem 4rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
 }
 
 #message {
     font-style:italic
+}
+
+.globe {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 25%, #ffffff, #cfe6ff 65%, #9dc4ef);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.scene {
+  width: 78%;
+}
+
+button {
+    font: inherit;
+    color: #ffffff;
+    background: #bb4184;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    transition: background 150ms ease, transform 150ms ease;
+}
+
+button:hover {
+    background: #661a44;
+    transform: scale(1.05);
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0) rotate(0deg); }
+    20% {transform: translateX(-0.6rem) rotate(-4deg);}
+    40% {transform: translateX(0.6rem) rotate(4deg);}
+    60% {transform: translateX(-0.4rem) rotate(-2deg);}
+    80% {transform: translateX(0.4rem) rotate(2deg);}
+}
+
+.globe.shaking {
+    animation: shake 600ms ease;
 }
