@@ -1,21 +1,33 @@
 const globe = document.querySelector('#globe');
-const button = document.querySelector('#shake');
+const question = document.querySelector('#question');
+const askbutton = document.querySelector('#ask');
 const message = document.querySelector('#message');
 
-const messages = [
-    "you are allowed to not be perfect",
-    "you are allowed to not be productive",
-    "don't forget what made you start in the first place",
-    "you are allowed to not be okay",
-    "people care",
-    "you are allowed to take a break",
-    "you are allowed to not have it all figured out",
+const predictions = [
+    "YES ✧",
+    "NO ✧",
+    "MAYBE ✧",
+    "IT'S POSSIBLE ✧",
+    "NOT YET ✧",
+    "DEFINITELY ✧",
+    "THE STARS SAY YES ✧",
+    "THE FUTURE IS UNCLEAR ✧",
+    "WAIT AND SEE ✧",
+    "SOMETHING IS COMING ✧"
 ];
 
-button.addEventListener('click', () => {
+askbutton.addEventListener('click', () => {
+    const userQuestion = question.value.trim();
+    if (userQuestion === "") {
+        message.textContent = "ask me something first... ♡";
+        return;
+    }
+    const prediction = predictions[Math.floor(Math.random() * predictions.length)];
+    globe.classList.remove("shaking");
+    void globe.offsetWidth;
     globe.classList.add("shaking");
-    setTimeout(() => globe.classList.remove("shaking"), 600);
-
-    const pick = Math.floor(Math.random() * messages.length);
-    message.textContent = messages[pick];
+    message.textContent = "the snow is settling..."
+    setTimeout(() => {
+        message.textContent = prediction;
+    }, 700);
 });

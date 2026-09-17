@@ -79,3 +79,40 @@ button:hover {
 .globe.shaking {
     animation: shake 600ms ease;
 }
+.question-area {
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.question-area label {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.question-area input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.75rem 1rem;
+    font: inherit;
+    color: #69004a;
+    background: #fff5fc;
+    border: 2px solid #69004a;
+    border-radius: 0.75rem;
+}
+
+.question-area input:focus {
+    outline: 2px solid #df5034;
+}
+
+#ask {
+    color: #ffffff;
+    background: #bb4184;
+}
+
+#ask:hover {
+    background: #661a44;
+}

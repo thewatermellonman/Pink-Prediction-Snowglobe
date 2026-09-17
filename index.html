@@ -2,21 +2,29 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>My pink snowglobe</title>
+        <title>The Pink Prediction Snowglobe</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <header class="hero">
-            <h1>My pink snowglobe</h1>
-            <p>A snowglobe, but pinker</p>
+            <h1>The Pink Prediction Snowglobe</h1>
+            <p>A snowglobe, but pinker and better at predicting things</p>
         </header>
         <main>
             <section class="globe-card">
                 <div class="globe" id="globe">
                     <img class="scene" src="snowglobe.png" alt="a pretty pink snowglobe" />
                 </div>
-                <button id="shake">shake the globe</button>
-                <p class="message" id="message">press the button and see what settles</p>
+
+                <p class="message" id="message">
+                    ask the snowglobe a question and see how your future will unfold...
+                </p>
+
+                <div class="question-area">
+                    <label for="question">what do you want to know?</label>
+                    <input type="text" id="question" placeholder="ask me anything..." maxlength="100" />
+                    <button id="ask">ask the snowglobe</button>
+                </div>
             </section>
         </main>
         <footer>
