@@ -1,7 +1,7 @@
 
 This is a snowglobe web project that is used to "tell the future." It was inspired by things like a Magic 8 Ball!
 
-[Try the Snowglobe here!](https://thewatermellonman.github.io/snowglobe/)
+[Try the Snowglobe here!](https://thewatermellonman.github.io/Pink-Prediction-Snowglobe/)
 
 Users can type a question like:
 
