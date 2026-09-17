@@ -1,8 +1,5 @@
-#  Snowglobe 
 
-This is a snowglobe web project that is used to **"tell the future."** It was inspired by things like a Magic 8 Ball!
-
-## Try It
+This is a snowglobe web project that is used to "tell the future." It was inspired by things like a Magic 8 Ball!
 
 [Try the Snowglobe here!](https://thewatermellonman.github.io/snowglobe/)
 
@@ -24,7 +21,7 @@ The snowglobe shakes before revealing one of these predictions:
 - WAIT AND SEE ✧
 - SOMETHING IS COMING ✧
 
-## Features
+Features
 
 - Asking questions
 - Randomized predictions
@@ -32,11 +29,9 @@ The snowglobe shakes before revealing one of these predictions:
 - Animated snowglobe shaking
 - Works directly in your web browser
 
-## Running Locally
+Running Locally
 
 To run this project on your own computer, download or clone the repository and open `index.html` in your web browser.
-
-## Future Ideas
 
 In the future, I think it would be cool to add:
 
