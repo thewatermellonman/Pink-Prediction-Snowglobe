@@ -1,10 +1,17 @@
-This is a snowglobe web project that is used to "tell the future." It was inspired by things like a magic 8 ball! 
+#  Snowglobe 
 
-Try it here: 
-https://thewatermellonman.github.io/snowglobe/
+This is a snowglobe web project that is used to **"tell the future."** It was inspired by things like a Magic 8 Ball!
 
-Users can type a question like "Will I get into my dream school?" or "Will my crush ask me out?"
-Then the snowglobe shakes before telling one of these predictions
+## Try It
+
+[Try the Snowglobe here!](https://thewatermellonman.github.io/snowglobe/)
+
+Users can type a question like:
+
+- "Will I get into my dream school?"
+- "Will my crush ask me out?"
+
+The snowglobe shakes before revealing one of these predictions:
 
 - YES ✧
 - NO ✧
@@ -17,16 +24,25 @@ Then the snowglobe shakes before telling one of these predictions
 - WAIT AND SEE ✧
 - SOMETHING IS COMING ✧
 
-Features:
+## Features
 
--Asking questions
--Randomized predictions
--Animated snowglobe
--Lovely pink backgrounds
--Works directly in your web browser
+- Asking questions
+- Randomized predictions
+- Lovely pink backgrounds
+- Animated snowglobe shaking
+- Works directly in your web browser
 
-To run this on your own, open index.html in your web browser :3
+## Running Locally
 
-In the future, I think it'd be cool to add some snow particles or maybe a more aesthetic looking vibe. I could also add more predictions
+To run this project on your own computer, download or clone the repository and open `index.html` in your web browser.
+
+## Future Ideas
+
+In the future, I think it would be cool to add:
+
+- Snow particle effects
+- A more aesthetic/whimsical visual style
+- More possible predictions
+- More animations and effects
 
 Made with HTML, CSS, and JavaScript :3
